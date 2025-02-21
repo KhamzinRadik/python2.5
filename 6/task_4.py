@@ -31,6 +31,7 @@ for i in str:
 count_repeats(dict_str)
 for i_sem in sorted(dict_str.keys()):
         print(i_sem,':', dict_str[i_sem])
+
 for leater,serial_num in collections.Counter(str).items():
     vocabulary.setdefault(serial_num,[]).append(leater)
 print('\nИнвертированный словарь частот:')
